@@ -10,13 +10,13 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 
-public class NioTimeServer implements Runnable {
+public class NioTimeServerHandler implements Runnable {
     private final int port;
     private final Selector selector;
     private final ServerSocketChannel serverSocketChannel;
     private volatile boolean stop;
 
-    public NioTimeServer(int port) {
+    public NioTimeServerHandler(int port) {
         this.port = port;
         try {
             selector = Selector.open();
