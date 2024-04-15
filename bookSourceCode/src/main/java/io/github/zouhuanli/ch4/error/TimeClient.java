@@ -1,4 +1,4 @@
-package io.github.zouhuanli.ch4;
+package io.github.zouhuanli.ch4.error;
 
 
 import io.netty.bootstrap.Bootstrap;
