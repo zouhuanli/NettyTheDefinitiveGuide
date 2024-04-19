@@ -1,4 +1,4 @@
-package io.github.zouhuanli.ch6;
+package io.github.zouhuanli.others;
 
 import java.util.concurrent.Semaphore;
 
